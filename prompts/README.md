@@ -5,25 +5,31 @@ This directory contains structured prompts organized by category to guide AI age
 ## Categories
 
 ### Governance
+
 Prompts for establishing organizational structures, oversight boards, and decision-making processes.
 
 **Examples:**
+
 - AI Ethics Board Charter
 - Approval Workflow Definitions
 - Escalation Procedures
 
 ### Risk & Compliance
+
 Prompts focused on risk assessment, regulatory compliance, and documentation.
 
 **Examples:**
+
 - Regulatory Mapping Templates
 - Risk Assessment Checklists
 - Compliance Audit Prompts
 
 ### AI Safety
+
 Prompts centered on alignment, transparency, and safe AI behavior.
 
 **Examples:**
+
 - Alignment Verification Prompts
 - Transparency & Explainability Checklists
 - Responsible Use Guidelines
@@ -43,21 +49,27 @@ Prompts centered on alignment, transparency, and safe AI behavior.
 # [Prompt Title]
 
 ## Purpose
+
 Brief description of what this prompt is designed to achieve.
 
 ## Context
+
 Who should use this? When? In what situations?
 
 ## Prompt
+
 [The actual prompt text here]
 
 ## Expected Output
+
 What should the AI agent produce?
 
 ## Tags
+
 governance, risk, compliance, safety, etc.
 
 ## Last Updated
+
 [Date]
 ```
 

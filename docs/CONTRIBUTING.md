@@ -5,6 +5,7 @@ Thank you for your interest in contributing! Prime Directive thrives on communit
 ## How to Contribute
 
 ### 1. Add a Prompt
+
 - Create a new `.md` file in the appropriate `/prompts/` subdirectory
 - Follow the [Prompt Template](../prompts/README.md#prompt-template)
 - Test your prompt with an AI agent
@@ -12,10 +13,12 @@ Thank you for your interest in contributing! Prime Directive thrives on communit
 - Open a pull request with a clear description
 
 ### 2. Improve Documentation
+
 - Fix typos, clarify instructions, or enhance guides
 - Update `README.md` or docs as needed
 
 ### 3. Report Issues
+
 - Found a bug or unclear prompt? Open an issue!
 - Include context and suggestions for improvement
 
@@ -35,6 +38,7 @@ Optional: longer explanation of changes
 ```
 
 **Examples:**
+
 - `[governance] add AI ethics board charter prompt`
 - `[risk] improve regulatory mapping template`
 
