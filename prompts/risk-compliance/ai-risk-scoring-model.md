@@ -1,5 +1,9 @@
 # AI Risk Scoring Model
 
+_Principles: accountability, transparency, privacy & security, reliability & safety_  
+_Lifecycle: design, development, testing, evaluation, verification, deployment, monitoring_  
+_Framework: nist-ai-rmf (Govern, Map, Measure, Manage)_
+
 ## Purpose
 
 Help teams build a simple, transparent AI risk scoring model that guides controls and oversight.
@@ -27,6 +31,7 @@ Design a 3–4 tier AI risk scoring model that:
   - Monitoring expectations (frequency and metrics).
 
 Format the output as:
+
 - A short narrative explanation.
 - A table with dimensions, scores, and tier thresholds.
 - A table mapping tiers to required controls.

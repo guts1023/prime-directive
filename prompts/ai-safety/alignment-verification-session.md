@@ -1,5 +1,9 @@
 # Alignment Verification Session
 
+_Principles: fairness, transparency, privacy & security, accountability, reliability & safety_  
+_Lifecycle: testing, evaluation, verification_  
+_Framework: nist-ai-rmf (Measure)_
+
 ## Purpose
 
 Guide a structured test session to verify that an AI system behaves consistently with stated responsible AI principles and policies.
