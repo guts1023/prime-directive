@@ -1,5 +1,9 @@
 # AI Ethics Board Charter
 
+_Principles: fairness, transparency, privacy & security, accountability, reliability & safety_  
+_Lifecycle: design, development, testing, evaluation, verification, deployment, monitoring, incident response_  
+_Framework: nist-ai-rmf (Govern, Map, Measure, Manage)_
+
 ## Purpose
 
 Define an AI Ethics Board that oversees high-impact AI use, aligns systems with responsible AI principles, and provides a structured decision forum for difficult cases.
@@ -40,4 +44,3 @@ A complete draft "AI Ethics Board Charter" document with clear sections: Purpose
 ## Tags
 
 governance, oversight, ethics, accountability, policy
-

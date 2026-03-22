@@ -1,5 +1,9 @@
 # AI Use Case Approval Workflow
 
+_Principles: accountability, transparency, fairness_  
+_Lifecycle: design, development, testing, evaluation, verification, deployment, monitoring_  
+_Framework: nist-ai-rmf (Govern, Map, Measure, Manage)_
+
 ## Purpose
 
 Provide a repeatable workflow for evaluating, classifying, and approving AI use cases before deployment.
@@ -29,6 +33,7 @@ Design an "AI Use Case Approval Workflow" that:
   - Design, development, pre-deployment review, production monitoring, and incident response.
 
 Output this as:
+
 1. A high-level flow description.
 2. A table mapping risk tiers to required controls and approvals.
 

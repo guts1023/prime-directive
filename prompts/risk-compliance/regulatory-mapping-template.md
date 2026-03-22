@@ -1,5 +1,9 @@
 # Regulatory Mapping Template for AI Use Cases
 
+_Principles: accountability, transparency, privacy & security_  
+_Lifecycle: design, development, testing, evaluation, verification, deployment, monitoring_  
+_Framework: nist-ai-rmf (Govern, Map, Measure, Manage)_
+
 ## Purpose
 
 Guide an AI agent to help teams map a specific AI use case to relevant regulations, standards, and internal policies.

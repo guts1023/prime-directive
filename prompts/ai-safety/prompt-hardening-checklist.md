@@ -1,5 +1,9 @@
 # Prompt Hardening & Safety Checklist
 
+_Principles: privacy & security, accountability, reliability & safety_  
+_Lifecycle: design, development, testing, evaluation, verification_  
+_Framework: nist-ai-rmf (Govern, Measure)_
+
 ## Purpose
 
 Help teams design prompts that reduce risk of prompt injection, data leakage, harmful outputs, and policy violations.

@@ -47,6 +47,7 @@ Prompts centered on alignment, transparency, and safe AI behavior.
 References and mappings to established AI governance, risk, and compliance frameworks from industry leaders and standards bodies.
 
 Each framework subfolder contains:
+
 - `*_profile.md`: Human-readable framework/policy document
 - `*_prompt-bundle.md`: Prompts that generate or maintain that profile
 

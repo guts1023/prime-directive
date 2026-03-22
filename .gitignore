@@ -17,3 +17,12 @@ __pycache__/
 # Temp files
 *.tmp
 .tmp/
+grc_framework/established-frameworks/nist-ai-rmf/nist.ai.100-1.pdf
+grc_framework/established-frameworks/google/CAI(2023)01 - Revised Zero Draft \[framework] Convention PUBLIC.docx.pdf
+grc_framework/established-frameworks/google/Frontier Safety Framework 2.0.pdf
+grc_framework/established-frameworks/google/google_recommendations_regulating_ai.pdf
+grc_framework/established-frameworks/google/google-approach-for-securing-ai-agents.pdf
+fix_markdown.py
+fix_markdown2.py
+docs/TEST_CASE.md
+docs/TEST_OUTPUT.md
