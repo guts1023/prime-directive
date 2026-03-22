@@ -2,11 +2,11 @@
 
 ## Purpose
 
-Provide a lightweight, NIST AI RMF–aligned implementation profile that organizations can adopt as a starting point for AI governance, risk management, and safety.[web:25][web:33][web:37]
+Provide a lightweight, NIST AI RMF–aligned implementation profile that organizations can adopt as a starting point for AI governance, risk management, and safety.
 
 ## Context
 
-Use this as a baseline for small to mid-sized teams that want to say: “We are aligned with the spirit of NIST AI RMF” without implementing every subcategory.[web:33][web:34]
+Use this as a baseline for small to mid-sized teams that want to say: “We are aligned with the spirit of NIST AI RMF” without implementing every subcategory.
 
 ## Scope
 
@@ -20,7 +20,7 @@ This profile maps NIST AI RMF Core Functions (Govern, Map, Measure, Manage) to:
 
 ### 1. Govern
 
-**Goal:** AI risk management is integrated into organizational governance.[web:33][web:34][web:37]
+**Goal:** AI risk management is integrated into organizational governance.
 
 - Required artifacts:
   - AI Ethics Board Charter (from `prompts/governance/ai-ethics-board-charter.md`)
@@ -31,7 +31,7 @@ This profile maps NIST AI RMF Core Functions (Govern, Map, Measure, Manage) to:
 
 ### 2. Map
 
-**Goal:** AI use cases, contexts, and risks are understood and documented before deployment.[web:33][web:37]
+**Goal:** AI use cases, contexts, and risks are understood and documented before deployment.
 
 - Required artifacts:
   - AI Use Case Intake Form (to be created).
@@ -42,7 +42,7 @@ This profile maps NIST AI RMF Core Functions (Govern, Map, Measure, Manage) to:
 
 ### 3. Measure
 
-**Goal:** AI risks and performance are measured using appropriate metrics and evaluations.[web:31][web:33][web:37]
+**Goal:** AI risks and performance are measured using appropriate metrics and evaluations.
 
 - Required artifacts:
   - AI Risk Scoring Model (from `prompts/risk-compliance/ai-risk-scoring-model.md`).
@@ -53,7 +53,7 @@ This profile maps NIST AI RMF Core Functions (Govern, Map, Measure, Manage) to:
 
 ### 4. Manage
 
-**Goal:** AI risks are prioritized and treated over time across the lifecycle.[web:33][web:34][web:37]
+**Goal:** AI risks are prioritized and treated over time across the lifecycle.
 
 - Required artifacts:
   - AI Use Case Approval Workflow (reuse from Govern).
