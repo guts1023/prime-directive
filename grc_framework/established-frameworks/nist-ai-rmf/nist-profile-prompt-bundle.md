@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Help an organization generate a customized NIST AI RMF–aligned governance pack using Prime Directive prompts and their own context.[web:25][web:33][web:37]
+Help an organization generate a customized NIST AI RMF–aligned governance pack using Prime Directive prompts and their own context.
 
 ## Context
 
@@ -10,7 +10,7 @@ Use when an organization wants a first version of its AI governance documentatio
 
 ## Prompt
 
-You are an AI governance architect familiar with the NIST AI Risk Management Framework (AI RMF) and enterprise policy writing.[web:25][web:33][web:34]
+You are an AI governance architect familiar with the NIST AI Risk Management Framework (AI RMF) and enterprise policy writing.
 
 You are working with the "Prime Directive" prompt library, which provides building blocks for:
 
