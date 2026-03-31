@@ -70,7 +70,7 @@ This plan outlines the foundational work to complete before opening a GitHub rep
 
 **Suggestions:**
 
-#### Governance (pick 1):
+#### Governance (pick 1)
 
 - **Option A:** AI Incident Response Protocol
   - Purpose: Define how to detect, contain, investigate, and recover from AI mishaps.
@@ -81,7 +81,7 @@ This plan outlines the foundational work to complete before opening a GitHub rep
   - Lifecycle: Controls & Approval
   - Principles: Accountability, Governance
 
-#### Risk & Compliance (pick 1):
+#### Risk & Compliance (pick 1)
 
 - **Option A:** AI System Inventory Template
   - Purpose: Audit your AI systems; document what you have and why.
@@ -92,7 +92,7 @@ This plan outlines the foundational work to complete before opening a GitHub rep
   - Lifecycle: Measuring (audit-phase)
   - Principles: Compliance, Accountability
 
-#### Safety (pick 1):
+#### Safety (pick 1)
 
 - **Option A:** Transparency & Explainability Checklist
   - Purpose: Audit how well a system explains its decisions to end users and stakeholders.
