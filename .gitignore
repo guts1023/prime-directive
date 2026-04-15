@@ -29,3 +29,8 @@ docs/TEST_OUTPUT.md
 
 # Copilot instructions
 .copilot-instructions.md
+
+# Virtual Environments
+.venv/
+venv/
+.vscode/nowdev-ai-config.json
