@@ -26,3 +26,11 @@ fix_markdown.py
 fix_markdown2.py
 docs/TEST_CASE.md
 docs/TEST_OUTPUT.md
+
+# Copilot instructions
+.copilot-instructions.md
+
+# Virtual Environments
+.venv/
+venv/
+.vscode/nowdev-ai-config.json

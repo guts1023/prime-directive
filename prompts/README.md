@@ -34,6 +34,17 @@ Prompts centered on alignment, transparency, and safe AI behavior.
 - Transparency & Explainability Checklists
 - Responsible Use Guidelines
 
+### Incident Response
+
+Prompts for planning and executing AI incident response, containment, recovery, and review.
+
+**Examples:**
+
+- Detection plans
+- Notification procedures
+- Containment actions
+- Post-incident review playbooks
+
 ---
 
 ## Adding New Prompts

@@ -58,6 +58,8 @@ Prime-Directive/
 
 All prompts live under `prompts/` and follow a common template (Purpose, Context, Prompt, Expected Output, Tags, Last Updated). This keeps prompts composable and easy to review.
 
+A companion agent spec is also available at `docs/prime-directive-companion-agent.md` for external systems that want a generic Prime Directive adviser. A machine-readable companion manifest lives at `agents/prime-directive-companion-agent.json`.
+
 ### Governance
 
 Prompts for establishing organizational structures, oversight boards, and decision-making processes, such as:
