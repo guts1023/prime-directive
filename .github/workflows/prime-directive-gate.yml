@@ -1,0 +1,67 @@
+name: "Prime Directive Agentic GRC Gate"
+
+on:
+  pull_request:
+    branches: [main, dev]
+  push:
+    branches: [main, dev]
+
+permissions:
+    contents: read
+
+jobs:
+  grc-audit:
+    name: "Enforce Framework Compliance"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout Codebase"
+        uses: actions/checkout@v4
+
+      - name: "Set up Python Environment"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: "Verify Context 7 Source of Truth"
+        id: verify-c7
+        run: |
+          echo "🔍 Activating Prime Directive Poka-Yoke Gate..."
+          if [ ! -f context7.json ]; then
+            echo "❌ CRITICAL ERROR: Centralized Context 7 registry (context7.json) is missing from root!"
+            exit 1
+          fi
+          echo "✅ Context 7 Data Fabric verified."
+
+      - name: "Verify Copilot Configuration Integrity"
+        run: |
+          echo "🔍 Checking platform integrations..."
+          if [ ! -f .github/agents/prime-directive-companion.agent.md ]; then
+            echo "❌ ERROR: Copilot Companion Agent Specification is missing from .github/agents/"
+            exit 1
+          fi
+          if [ ! -f .github/prompts/bias-assessment.prompt.md ] || [ ! -f .github/prompts/incident-mitigation.prompt.md ]; then
+            echo "❌ ERROR: Missing mandatory slash-command prompt templates in .github/prompts/"
+            exit 1
+          fi
+          echo "✅ Native platform slash commands and agent configs are present and locked."
+
+      - name: "Run Prime Directive Verification Tooling"
+        run: |
+          echo "🤖 Executing programmatic framework validation tests..."
+          if [ -f scripts/verify_grc_compliance.py ]; then
+            python scripts/verify_grc_compliance.py
+          else
+            echo "❌ CRITICAL ERROR: scripts/verify_grc_compliance.py is missing!"
+            exit 1
+          fi
+
+      - name: "Run Algorithmic Risk Gate Enforcement"
+        run: |
+          echo "🧮 Executing phase-gate artifact validation..."
+          if [ -f scripts/evaluate_project_risk.py ]; then
+            python scripts/evaluate_project_risk.py
+          else
+            echo "❌ CRITICAL ERROR: scripts/evaluate_project_risk.py is missing!"
+            exit 1
+          fi

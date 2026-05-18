@@ -1,94 +1,59 @@
-# Prime Directive Roadmap
+# Prime Directive Strategic Development Roadmap
 
-**Roadmap is directional, not a guarantee; issues and discussions drive priorities.**
-
-This roadmap outlines a 3-phase plan to build Prime Directive from a core prompt library into a community-driven resource for AI governance, risk, and compliance (GRC).
+**This roadmap outlines the multi-phase engineering evolution of Prime Directive from an executable repository runtime into a cross-platform, automated GRC ingestion layer.**
 
 ---
 
-## Phase 1 – Solidify the Core Library (0–3 months)
+## 📈 Phase 1: Core Architecture & Automation (0–3 Months) — [✅ COMPLETED]
 
-### Finish v1 Prompt Sets
+### Codebase Structural Hardening
 
-- At least 3–5 prompts each in:
-  - Governance
-  - Risk & Compliance
-  - AI Safety
-- Ensure all follow the common template and have clear, testable Expected Output.
-
-### Stand Up One Flagship Framework Profile
-
-- Populate `grc_framework/nist-ai-rmf/` with a starter profile and a prompt bundle that assembles a NIST‑aligned pack.
-- Serve as a template for future framework profiles.
-
-### Improve Project Ergonomics
-
-- Finalize README, `docs/CONTRIBUTING.md`, `docs/GOVERNANCE.md`.
-- Add basic labels in Issues (e.g., `prompt`, `framework-profile`, `good-first-issue`).
-- Set up issue templates for common contribution types.
+- **The Agentic Restructure:** Stripped legacy text files and established the core directory structure matching the NIST AI RMF functions (`governance/`, `risk-compliance/`, and `incident-response/`).
+- **Poka-Yoke Automation Gate:** Integrated `.github/workflows/prime-directive-gate.yml` to automatically validate system parameters on commit pushes.
+- **Core Agent Alignment:** Shipped version 1.3.0 of `.github/agents/prime-directive-companion.agent.md` to guide workspace development engines through precise file modifications.
 
 ---
 
-## Phase 2 – Frameworks and Adoption Paths (3–9 months)
+## 🚀 Phase 2: Playbook Serialization & Data Fabric (3–9 Months) — [🔄 ACTIVE SPRINT]
 
-### Add Opinionated "Profiles"
+### Executable Playbook Expansion
 
-- **Small startup AI GRC profile** – minimal but real governance for resource-constrained teams.
-- **Enterprise / regulated profile** – assumes legal, risk, and audit functions.
-- Additional domain-specific profiles as community feedback emerges.
+- Populate the `/playbooks/` subdirectories inside each lifecycle pillar with machine-parseable markdown files to achieve a minimum of 3 executable validation procedures per phase.
+- Standardize structured metadata matrices across all files to ensure deterministic interpretation by developer agents.
 
-### Map to Established Frameworks
+### Markitdown Ingestion Pipeline
 
-- Short mapping notes in `grc_framework/established-frameworks/*` for:
-  - NIST AI Risk Management Framework
-  - Major clouds' Responsible AI principles (Microsoft, Google, Amazon, OpenAI, Anthropic, Meta)
-  - Other emerging standards and regulations
-- Make it easy for teams to see how Prime Directive aligns with their existing governance standards.
+- Build out structural ingestion patterns utilizing Microsoft's `markitdown` engine to programmatically convert complex corporate governance PDFs and DOCX files directly into clean, workspace-aligned markdown.
+- Formally map ingestion parameters through the root `context7.json` configuration file to establish an isolated enterprise data fabric.
 
-### Publish "30‑Minute Adoption" Guides
+### Rapid Deployment Runbooks
 
-- Simple, step‑by‑step docs showing how to go from zero to:
-  - Charter + approval workflow
-  - Basic risk scoring
-  - Safety checklist
-- Real use-case walkthroughs that demonstrate end-to-end value.
+- Publish "30-Minute Adoption" guides demonstrating how an enterprise can go from a blank slate to an automated, gate-verified AI compliance configuration.
 
 ---
 
-## Phase 3 – Community and Integrations (9–18 months)
+## 🌐 Phase 3: Ecosystem Integrations & API Layer (9–18 Months) — [⏭️ FUTURE]
 
-### Community Growth
+### Multi-Agent Orchestration
 
-- Issue templates for:
-  - "New prompt request"
-  - "New framework profile request"
-- Regular "prompt review" or "profile review" cycles with contributors.
-- Highlight community contributions and recognize contributors.
+- Develop explicit configuration adapters for advanced developer workbenches (e.g., custom ServiceNow Certified System Administrator configurations, Microsoft Copilot Studio, and Langchain workflows).
+- Demonstrate patterns for passing running application logs directly through local algorithmic risk evaluation scripts.
 
-### Ecosystem Integrations
+### Semantic Schema Versioning
 
-- Example usage with one or two popular AI agent/orchestration frameworks.
-- Show how to load Prime Directive prompts as a library or integrate into existing workflows.
-- SDK or API patterns for programmatic access to prompt collections.
-
-### Maturity and Maintenance
-
-- Versioning scheme for prompts and frameworks.
-- Changelog for breaking changes or updated mappings as regulations and standards evolve.
-- Process for deprecating outdated prompts or profiles.
+- Implement a formalized versioning schema for playbooks and validation modules to handle breaking updates seamlessly as international regulations (such as the EU AI Act or updated NIST directives) evolve.
+- Introduce automated testing suites to audit running workspace engines for prompt compliance.
 
 ---
 
-## Success Metrics
+## 🎯 Core Milestone Metrics
 
-- **Phase 1:** Core library complete; NIST profile live; contribution guidelines clear.
-- **Phase 2:** ≥2 opinionated profiles published; ≥3 framework mappings documented; adoption guides available.
-- **Phase 3:** Active community contributions; integrations with ≥1 popular AI framework; versioning/changelog in place.
+- **Phase 1 Target:** Establish a functional, gate-secured repository layout with versioned agent manifestations. **[100% Achieved]**
+- **Phase 2 Target:** Complete 3 core executable playbooks per lifecycle folder and successfully run a localized PDF ingestion test. **[In Progress]**
+- **Phase 3 Target:** Certify external platform integrations and lock down automated API access schemas. **[Planned]**
 
 ---
 
-## How to Contribute
+## 🤝 Community Coordination
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on submitting new prompts, profiles, and improvements.
-
-Interested in a specific roadmap item? Open an issue or discussion to coordinate.
+To pick up an open engineering item or propose a playbook optimization, please review our updated [CONTRIBUTING.md](./CONTRIBUTING.md) file. For feature proposals, feel free to open a tracking issue inside the repository.

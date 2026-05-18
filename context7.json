@@ -1,4 +1,26 @@
 {
   "url": "https://context7.com/guts1023/prime-directive",
-  "public_key": "pk_wBaVj5Btabo63R4P4Peih"
+  "public_key": "pk_wBaVj5Btabo63R4P4Peih",
+  "framework": "Prime Directive GRC",
+  "version": "1.0.0",
+  "core_standard": "NIST-AI-RMF-1.0",
+  "repository_identifier": "guts1023/prime-directive",
+  "directories": {
+    "prompts": ".github/prompts",
+    "agents": ".github/agents",
+    "workflows": ".github/workflows",
+    "governance_playbooks": "governance/playbooks",
+    "risk_playbooks": "risk-compliance/playbooks",
+    "incident_playbooks": "incident-response/playbooks",
+    "automation_scripts": "scripts"
+  },
+  "slash_commands": {
+    "/assess-bias": ".github/prompts/bias-assessment.prompt.md",
+    "/incident-mitigation": ".github/prompts/incident-mitigation.prompt.md",
+    "/verify-alignment": ".github/prompts/verify-alignment.prompt.md",
+    "/harden-prompts": ".github/prompts/harden-prompts.prompt.md",
+    "/ethics-board": ".github/prompts/ethics-board.prompt.md",
+    "/score-risk": ".github/prompts/score-risk.prompt.md",
+    "/map-regulatory": ".github/prompts/map-regulatory.prompt.md"
+  }
 }

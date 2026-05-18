@@ -1,36 +1,30 @@
-# OS
+# OS Metadata
 .DS_Store
 Thumbs.db
 *.log
 
-# IDEs
+# IDE & Editor Configurations
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Dependencies (if we add any later)
-node_modules/
+# Python Build & Dependency Artifacts
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+node_modules/
 
-# Temp files
+# Temporary Testing & Utility Scratchpads
 *.tmp
 .tmp/
-grc_framework/established-frameworks/nist-ai-rmf/nist.ai.100-1.pdf
-grc_framework/established-frameworks/google/CAI(2023)01 - Revised Zero Draft \[framework] Convention PUBLIC.docx.pdf
-grc_framework/established-frameworks/google/Frontier Safety Framework 2.0.pdf
-grc_framework/established-frameworks/google/google_recommendations_regulating_ai.pdf
-grc_framework/established-frameworks/google/google-approach-for-securing-ai-agents.pdf
-fix_markdown.py
-fix_markdown2.py
+fix_markdown*.py
 docs/TEST_CASE.md
 docs/TEST_OUTPUT.md
 
-# Copilot instructions
-.copilot-instructions.md
-
-# Virtual Environments
-.venv/
-venv/
+# Platform Specific Configuration Ignores
 .vscode/nowdev-ai-config.json
+.github/agents/NowDev-AI*.agent.md
